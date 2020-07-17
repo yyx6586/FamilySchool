@@ -1,6 +1,6 @@
 package com.aloogn.servlet;
 
-import com.jdbc.test.jdbcUtil;
+import com.jdbc.test.JdbcUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -112,7 +112,7 @@ public class LoginServlet extends HttpServlet {
 //            e.printStackTrace();
 //        }
 
-        Connection connection = jdbcUtil.open();
+        Connection connection = JdbcUtil.open();
 
         String sql = "select * from user where id='"+account+"' and password='"+password+"'";
 
@@ -138,6 +138,6 @@ public class LoginServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        jdbcUtil.close(connection);
+        JdbcUtil.close(connection);
     }
 }

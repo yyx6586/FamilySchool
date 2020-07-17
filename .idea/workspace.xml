@@ -6,7 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fed4e6d-421d-4518-ad8c-fc81662b2f56" name="Default Changelist" comment="" />
+    <list default="true" id="8fed4e6d-421d-4518-ad8c-fc81662b2f56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aloogn/servlet/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-httpclient-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilySchool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FamilySchool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/aloogn/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/aloogn/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/aloogn/servlet/servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/aloogn/servlet/servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/jdbc/test/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/jdbc/test/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/jdbc/test/jdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/classes/com/jdbc/test/jdbcUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FamilySchool_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aloogn/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aloogn/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aloogn/servlet/servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aloogn/servlet/servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jdbc/test/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdbc/test/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jdbc/test/jdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jdbc/test/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/aloogn/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/aloogn/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/aloogn/servlet/servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/aloogn/servlet/servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/jdbc/test/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/jdbc/test/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/jdbc/test/jdbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/jdbc/test/jdbcUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,41 +77,45 @@
     <session id="-50761977">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1419" />
+          <entry key="dummy" value="4" />
+          <entry key="java" value="2166" />
           <entry key="txt" value="12" />
-          <entry key="xml" value="42" />
+          <entry key="xml" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1419" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="XML" value="42" />
+          <entry key="JAVA" value="2166" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="XML" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="6" />
+          <entry key="java" value="13" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="13" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -90,9 +123,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jdbc/test/jdbcUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jdbc/test/JdbcUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="220">
               <caret line="12" column="17" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,15 +134,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="74" column="37" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="74" selection-end-column="37" />
+            <state relative-caret-position="260">
+              <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2949#2975#0" />
+                <element signature="e#458#521#0" />
+                <element signature="e#3059#3085#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/ResetPasswordServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1210">
+              <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jdbc/test/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -122,6 +202,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/com/aloogn/servlet</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -141,11 +229,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/aloogn/servlet/HttpServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/jdbc/test/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/com/jdbc/test/jdbcUtil.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/aloogn/servlet/servlet.java" />
+        <option value="$PROJECT_DIR$/src/com/aloogn/servlet/registerServlet.java" />
         <option value="$PROJECT_DIR$/src/com/aloogn/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/aloogn/servlet/resetPasswordServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/jdbc/test/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/aloogn/servlet/Result.java" />
+        <option value="$PROJECT_DIR$/src/com/aloogn/servlet/ResetPasswordServlet.java" />
       </list>
     </option>
   </component>
@@ -220,7 +312,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -265,17 +356,25 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FamilySchool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FamilySchool" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594801462788" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594948853817" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -284,11 +383,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.aloogn.servlet" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aloogn.servlet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,6 +418,19 @@
     </configuration>
     <configuration name="LoginServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aloogn.servlet.LoginServlet" />
+      <module name="FamilySchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aloogn.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResetPasswordServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aloogn.servlet.ResetPasswordServlet" />
       <module name="FamilySchool" />
       <extension name="coverage">
         <pattern>
@@ -542,9 +654,11 @@
       <item itemvalue="Tomcat Server.FamilySchool" />
       <item itemvalue="Application.DBConnection" />
       <item itemvalue="Application.LoginServlet" />
+      <item itemvalue="Application.ResetPasswordServlet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResetPasswordServlet" />
         <item itemvalue="Application.LoginServlet" />
         <item itemvalue="Application.DBConnection" />
       </list>
@@ -563,11 +677,14 @@
       <workItem from="1594642614864" duration="11072000" />
       <workItem from="1594699669185" duration="12622000" />
       <workItem from="1594802161778" duration="3834000" />
+      <workItem from="1594865038138" duration="190000" />
+      <workItem from="1594881317769" duration="5255000" />
+      <workItem from="1594894530552" duration="7234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27528000" />
+    <option name="totallyTimeSpent" value="40207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,7 +699,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16452074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26967096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -591,9 +708,9 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2878981" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2878981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
@@ -630,6 +747,12 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/aloogn/servlet/ResetPasswordServlet.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -650,13 +773,6 @@
         <state relative-caret-position="-244" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdbc/test/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -664,16 +780,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/registerServlet.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="476">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdbc/test/jdbcUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jdbc/test/JdbcUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="220">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -681,13 +798,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="353" column="12" selection-start-line="353" selection-start-column="12" selection-end-line="353" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdbc/test/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="74" column="37" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="74" selection-end-column="37" />
+        <state relative-caret-position="260">
+          <caret line="122" column="12" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2949#2975#0" />
+            <element signature="e#458#521#0" />
+            <element signature="e#3059#3085#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/aloogn/servlet/ResetPasswordServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

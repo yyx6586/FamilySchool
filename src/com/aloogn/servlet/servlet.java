@@ -1,6 +1,6 @@
 package com.aloogn.servlet;
 
-import com.jdbc.test.jdbcUtil;
+import com.jdbc.test.JdbcUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -18,7 +18,7 @@ public class servlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Connection connection = null;
         Statement statement = null;
-        jdbcUtil jdbcUtil = new jdbcUtil();
+        JdbcUtil jdbcUtil = new JdbcUtil();
         connection = jdbcUtil.open();
         String sql = "select * from user";
         try {

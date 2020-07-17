@@ -14,11 +14,11 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>servlet</servlet-name>
-        <servlet-class>com.aloogn.servlet.servlet</servlet-class>
+        <servlet-name>resetPasswordServlet</servlet-name>
+        <servlet-class>com.aloogn.servlet.ResetPasswordServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>servlet</servlet-name>
-        <url-pattern>/servlet</url-pattern>
+        <servlet-name>resetPasswordServlet</servlet-name>
+        <url-pattern>/resetPasswordServlet</url-pattern>
     </servlet-mapping>
 </web-app>
