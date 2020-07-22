@@ -1,6 +1,7 @@
 package com.aloogn.servlet;
 
 import com.jdbc.test.JdbcUtil;
+import net.sf.json.JSONObject;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -80,6 +81,11 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        doGet(req,resp);
 
+        resp.setCharacterEncoding("utf-8");
+
+        Result result = new Result();
+        result.setCode(-1);
+
         String account = (String)req.getParameter("account");
         String password = (String)req.getParameter("password");
         //数据库url，username，password
@@ -112,32 +118,50 @@ public class LoginServlet extends HttpServlet {
 //            e.printStackTrace();
 //        }
 
+//        if(account == null || "".equals(account)){
+//            result.setMsg("账号不能为空");
+//            resp.getWriter().write(JSONObject.fromObject(result).toString());
+//            return;
+//        }
+//
+//        if (password == null || "".equals(password)){
+//            result.setMsg("密码不能为空");
+//            resp.getWriter().write(JSONObject.fromObject(result).toString());
+//            return;
+//        }
+
         Connection connection = JdbcUtil.open();
 
-        String sql = "select * from user where id='"+account+"' and password='"+password+"'";
+        String sqlId = "select * from user where id='"+account+"'";
 
         try {
             Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(sql);
-            int flag = 0;
+            ResultSet resultSet = statement.executeQuery(sqlId);
+            String role = null;
+            String passwordSql = null;
             while (resultSet.next()){
-                flag ++;
-//                String id = resultSet.getString("id");
-//                String password = resultSet.getString("password");
-
-
+                passwordSql = resultSet.getString("password");
+                role = resultSet.getString("role");
             }
 
-            if(flag > 0){
-                resp.setCharacterEncoding("utf-8");
-                resp.getWriter().write("登录成功");
-            }else{
-                resp.setCharacterEncoding("utf-8");
-                resp.getWriter().write("登录失败");
+            if(passwordSql != null){
+                if(passwordSql.equals(password)){
+                    result.setCode(1);
+                    result.setData(role);
+                    result.setMsg("登录成功");
+                    resp.getWriter().write(JSONObject.fromObject(result).toString());
+                }else {
+                    result.setMsg("密码错误");
+                    resp.getWriter().write(JSONObject.fromObject(result).toString());
+                }
+            }else {
+                result.setMsg("该用户不存在");
+                resp.getWriter().write(JSONObject.fromObject(result).toString());
             }
         } catch (SQLException e) {
             e.printStackTrace();
+        }finally {
+            JdbcUtil.close(connection);
         }
-        JdbcUtil.close(connection);
     }
 }
